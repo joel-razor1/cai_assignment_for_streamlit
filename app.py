@@ -45,7 +45,7 @@ if uploaded_file is not None:
 
     # Small open-source LLM (GPT4All - 7B model)
     #llm = GPT4All(model_name="ggml-gpt4all-j-v1.3-groovy.bin", model_path="E:\MultiStage_RAG\\venv\Lib\site-packages\gpt4all")
-    llm = GPT4All(model_name=filename, model_path="/mount/src/conai_rag")
+    llm = GPT4All(model_name=filename, model_path=None)
 
     # Input guardrail: Basic validation
     def validate_query(query):
