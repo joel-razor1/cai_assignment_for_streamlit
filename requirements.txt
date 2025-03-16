@@ -1,0 +1,11 @@
+wget
+streamlit 
+pandas 
+torch 
+pypdf2 
+sentence-transformers 
+rank-bm25 
+faiss-cpu 
+langchain-community 
+langchain
+gpt4all==0.3.0
